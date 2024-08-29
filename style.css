@@ -182,24 +182,4 @@ hr{
     padding-top: 30px;
     width: 100%;
 }
-
-section{
-    display: flex;
-    padding-top: 30px;
-    padding-left: 200px;
-    justify-content: center;
-    align-items: center;
-}
-
-.top{
-    padding-top: 400px;
-    color:rgb(125, 204, 7);
-    font-size: 1.3rem;
-}
-
-.bottom{
-    display: block;
-    color: white;
-    font-size: 1rem;
-}
 /* hero section ends */
