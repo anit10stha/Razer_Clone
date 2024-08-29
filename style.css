@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* top navbar ends */
+.navbar{
+    font-size: 1.1rem;
+    height: 60px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+
+.nav-logo img{
+    height: 35px;
+    width: 35px;
+    filter: contrast(20);
+}
+
+.nav-content{
+    color: #bbbbbb;
+}
+
+.nav-content a{
+    padding-left: 50px;
+}
+
+.nav-content a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.nav-icons i{
+    padding-left: 60px;
+    color:#bbbbbb;
+}
+
+.nav-icons i:hover{
+    color: rgb(255, 255, 255);
+}
+/* top navbar ends */
+
+
+/* down navbar starts */
+.down-nav{
+    height: 56px;
+    display: flex;
+    background-color: #161616;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;   
+}
+
+.down-nav h1{
+    width: 70%;
+    font-size: 1.2rem;
+}
+
+.down-nav a{
+    color: #888888;
+    cursor: pointer;
+
+}
+
+.down-nav a:hover{
+    color:rgb(148, 238, 14);
+}
+
+button{
+    height: 30px;
+    width: 50px;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: rgb(86, 224, 22);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(91, 211, 36, 0.911);
+}
+
+hr{
+    border: 0.1px solid rgb(125, 204, 7);
+}
+/* down navbar ends */
+
+
+
+/* hero section starts */
+.hero{
+    background-color:#000000;
+}
+
+.box1{
+    display: flex;
+    color: #eeeeee;
+    background-color: #555555;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    word-spacing: 2px;
+}
+
+.hero-background img{
+    height: 460px;
+    background-size: cover;
+}
+
+.hero-container{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+}
+
+.product-title{
+    color:#bbbbbb;
+    font-size: 1.2rem;
+}
+
+.header{
+    color:rgb(86, 224, 22);
+    font-size: 3rem;
+    padding-top: 20px;
+}
+
+.content{
+    font-size: 1.1rem;
+    color: #bbbbbb;
+    width: 70%;
+    padding: 10px 150px;
+}
+
+.xbox-logo{
+    height: 110px;
+    width: 110px;
+    margin-top: 20px;
+}
+
+.hero-video iframe{
+    margin-top: 70px;
+    height: 400px;
+    width: 100%;
+}
+/* hero section ends */
