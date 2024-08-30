@@ -16,24 +16,36 @@
     <header>
         <!--top navbar section starts -->
         <div class="navbar">
-            <div class="nav-logo">
+            <div class="nav-logo border">
                 <img src="assets/logo.png" alt="Razer logo">
             </div>
 
             <div class="nav-content">
-               <a> Store</a>
-               <a>PC
-                <a>Console</a>
-                <a>Mobile</a>
-                <a>Lifestyle</a>
-                <a>Gold</a>
-                <a>Community</a>
-                <a>Support</a> 
+               <a class="border"> Store</a>
+               <a class="border">PC
+                <a class="border">Console</a>
+                <a class="border">Mobile</a>
+                <a class="border">Lifestyle</a>
+                <a class="border">Gold</a>
+                <a class="border">Community</a>
+                <a class="border">Support</a> 
             </div>
             
             <div class="nav-icons">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-magnifying-glass" class="border"></i>
+                <i class="fa-solid fa-cart-shopping" class="border"></i>
+
+                <!-- for side bar -->
+                <div class="sidenav" id="mySidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                  </div>
+                  
+                  <span class="side-bar" onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
+                 <!-- end of side bar -->
             </div>
         </div>
         <!-- top navbar section ends -->
@@ -41,8 +53,8 @@
         <!-- down navbar  section starts -->
          <div class="down-nav">
             <h1>Razer Wolverine V3 Pro</h1>
-            <p>Overview</p>
-            <a>Tech Specs</a>
+            <p class="border">Overview</p>
+            <a class="border">Tech Specs</a>
             <button>Buy</button>
          </div>
          <hr>
@@ -229,6 +241,14 @@
 
 
 <!-- footer section ends -->
-
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
 </body>
 </html>

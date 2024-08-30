@@ -22,6 +22,16 @@ header{
     cursor: pointer;
 }
 
+.border{
+    margin: 0%;
+    padding: 0%;
+    border-bottom: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.border:hover{
+    border: 1.5px  solid rgb(47, 204, 86);
+}
 
 .nav-logo img{
     height: 35px;
@@ -40,6 +50,65 @@ header{
 .nav-content a:hover{
     color: rgb(255, 255, 255);
 }
+
+/* side navbar starts */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: rgba(199, 199, 199, 0.2);
+    border-radius: 10px;
+    padding-top: 1.9rem;
+    /* text-align: center; */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 4px 6px rgba(61, 59, 59, 0.575);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* background-color: #111; */
+    overflow-x: hidden;
+    transition: 0.5s;
+   
+
+  }
+  
+  .side-bar{
+    color: rgb(224, 224, 224);
+    font-size:20px;
+    cursor:pointer
+   
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ebebeb;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #32d32d;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+/* side navbar ends */
+
 
 .nav-icons i{
     padding-left: 60px;
