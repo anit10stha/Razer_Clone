@@ -22,17 +22,6 @@ header{
     cursor: pointer;
 }
 
-.border{
-    margin: 0%;
-    padding: 0%;
-    border-bottom: 1px solid transparent;
-    border-radius: 5px;
-}
-
-.border:hover{
-    border: 1.5px  solid rgb(47, 204, 86);
-}
-
 .nav-logo img{
     height: 35px;
     width: 35px;
